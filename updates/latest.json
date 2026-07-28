@@ -1,13 +1,13 @@
 {
-  "version": "3.95.0",
-  "download_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-3.95.0.plugin",
-  "sha256": "fe6e29c5b1411ddd6fc99350dd688d7e2f4927368e6ef509f7ebc8cdf71d5e12",
+  "version": "3.96.1",
+  "download_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-3.96.1.plugin",
+  "sha256": "7bad5a26bedcd66affe5206636be9467d5e4fbd9c6b898061bee6b3412e07ff2",
   "signed": true,
-  "signature_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-3.95.0.plugin.asc",
+  "signature_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-3.96.1.plugin.asc",
   "signing_key_url": "https://pauljbernard.github.io/open-trading-surface/assets/ots-signing-key.asc",
   "signing_key_fingerprint": "4703B1C357ADE3DAB29ED4F48EAFA2ED20058E4B",
   "min_node": "18",
-  "notes": "Owner directive: executive changes directly impact company outcomes — joins, leaves and fundamental profile changes are important events. This wave makes executives first-class: a person drill-down inside Company Information, a per-symbol roster snapshot store with structural change detection wired into the scan/calendar/alert planes, and a display-only executive-mention tag on the news intake. - EXECUTIVE PROFILE DRILL-DOWN. Every Key Executives row in Company Information is clickable and opens a person PROFILE sub-page within the company view (tab.sub = 'profile' — the existing view/sub mech",
-  "published": "2026-07-28T01:30:55.796Z",
+  "notes": "FOURTH FIX, found live the day after 3.95.0 shipped: the executive-roster poll rides scanStart's external-poll gate ahead of the intake (so news tagging sees the freshest roster), but the on-demand run_ingest tool called ingest.runCycle DIRECTLY and skipped it — a roster cycle could only ever happen on the daemon schedule, and there was NO way to record a first baseline by hand. The scan said so honestly for a full day (\"no executive roster cycle has run yet\") while the capability sat unreachable. run_ingest now runs the same roster poll first, same order, same best-effort discipline: a roster",
+  "published": "2026-07-28T14:07:08.688Z",
   "channel": "https://pauljbernard.github.io/open-trading-surface/updates/latest.json"
 }
