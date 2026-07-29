@@ -1,13 +1,13 @@
 {
-  "version": "4.2.0",
-  "download_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-4.2.0.plugin",
-  "sha256": "772516816b893b14408f33f48e03715315c6d4014b133123e71289a1dfc655e2",
+  "version": "4.7.0",
+  "download_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-4.7.0.plugin",
+  "sha256": "0356f99e142b4e62ae43629d258059df1b2ee915d97a7b6008b0790efcc99e86",
   "signed": true,
-  "signature_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-4.2.0.plugin.asc",
+  "signature_url": "https://pauljbernard.github.io/open-trading-surface/download/ots-4.7.0.plugin.asc",
   "signing_key_url": "https://pauljbernard.github.io/open-trading-surface/assets/ots-signing-key.asc",
   "signing_key_fingerprint": "4703B1C357ADE3DAB29ED4F48EAFA2ED20058E4B",
   "min_node": "18",
-  "notes": "Two things ship, and they are the same thing seen from two directions: an add-on book is an INCREMENT, and a number that treats it as a peer of whole-company frames is answering a different question than the one it is being read for. Phase 1 makes the two answers visible together. The dial fix is that same observation applied to an inversion that had been quietly using the wrong one for every SI-heavy name. 1. PHASE 1 — the structural constructions, behind a flag, with BOTH numbers reported (VALUATION-STRUCTURE-SPEC §3, §8 Phase 1) The flag. STRUCTURE_COMPOSITE_ENABLED, tuning registry, defaul",
-  "published": "2026-07-28T21:11:27.723Z",
+  "notes": "*\"Stock prices are actually a top down and bottoms up analysis activity… having insight into how the market is actually justifying a current price and deriving what assumptions come along with that provides us with a list of dependencies.\"* Every pricing surface OTS has shipped so far asks one question: what is this name worth if our assumptions hold. This is the other question — what must be believed for today's price to be fair — and it is deliberately not answered with one inverted number. One price is one equation and the assumptions are many, so infinitely many belief vectors reproduce it",
+  "published": "2026-07-29T22:07:16.454Z",
   "channel": "https://pauljbernard.github.io/open-trading-surface/updates/latest.json"
 }
